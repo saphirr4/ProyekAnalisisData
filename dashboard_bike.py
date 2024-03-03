@@ -206,7 +206,3 @@ uploaded = files.upload()
 for fn in uploaded.keys():
   print('User uploaded file "{name}" with length {length} bytes'.format(
       name=fn, length=len(uploaded[fn])))
-
-"""## Install requirements.txt"""
-
-!pip install -r /content/requirements.txt
